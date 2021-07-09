@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>To do list     </header>
+    <div class="moce">
+        <div class="sideBar">
+            <ul>
+                <div id="projectCo">Projects </div>
+                
+    
+                <li id="addproject">+ Add project</li>
+                <li id="add-object-form" class="active">
+                    <input id="newPjName"type="text" style="width: 100%;">
+                    <div class="project-button-set">
+                        <button id="add-project">add</button>
+                        <button id="cancel-add-project">Cancel</button>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        
+        <div class="container">          
+            <div class="blocker">
+            <!-- <div class="tesk tesk-item">
+                <div class="teskname">some sssbody tesk</div>
+                <div class="delete-button">
+                    <div>X</div>
+                </div>
+                <div class="description"> 
+                            need to do this                 
+                </div>
+                <div class="dueDate">
+                        date      
+                </div>
+            </div> -->
+            <div id="tesk-popout" class="tesk teskform active">
+                <input id="add-name" type="text" placeholder="name">
+                 <input id="add-desc" placeholder="description"type="text">
+                <input id="add-date"type="date" placeholder="date">
+                <div class="tesk-button-set">
+                    <button id="add-tesk">add</button>
+                    <button id="cancel-add-tesk">Cancel</button>
+                </div>
+            </div>         
+            <div id="tesk-pop" class="tesk pop-tesk-form">
+                <p>
+                    add new tesk +
+                </p>
+                
+            </div>
+        
+
+            </div>  
+        </div>      
+    </div>
+        
+
+
+</body>
+<script src="js.js"></script>
+</html>

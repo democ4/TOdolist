@@ -1,0 +1,144 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+header{
+    color: beige;
+    height: 10%;
+    font-size: 45px;
+    background-color :rgb(56, 56, 56);
+}
+footer{
+    height: 10%;
+
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: brown;
+}
+
+.sideBar{
+    background-color: rgb(224, 224, 224);
+
+}
+.sideBar > ul{
+    list-style: none;
+    padding-left: 10px;
+    background-color: rgb(224, 224, 224);
+}
+.sideBar > ul>li{
+    margin-right: 10px;
+    
+    background-color:rgb(224, 224, 224);
+}
+.sideBar > ul>li:hover{
+        background-color: rgb(121, 134, 156);
+}
+.active{
+display: none!important;
+}
+.container{
+    background-color: rgb(236, 236, 236);
+}
+.moce{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-column: 1fr;
+    height: 90%;
+}
+.project-button-set{
+    display: flex;
+    justify-content: space-around;
+}
+.project-button-set >button {
+    width: 40%;
+}
+#add-object-form:hover{
+    background-color: rgb(175, 193, 224);
+
+}
+
+
+.object-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+}
+
+.tesk{
+    width: 60%;
+    border: rgb(121, 134, 156) 2px solid;
+    border-radius: 5px;
+    margin: 25px;
+}
+.teskname{
+    position:fixed;
+    background-color: rgb(121, 134, 156);
+    border-radius: 5px;
+
+    column-rule: cornsilk;
+
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.dueDate{
+    display: flex;
+    justify-content: flex-end;
+}
+.delete-button{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+   
+    width: 10px;
+}
+.tesk > .delete-button{
+    margin-left: 97%;
+}
+
+#add-desc{
+    width: 70%;
+    height: 9vh;
+}
+#add-name{
+    width: 70%;
+}
+#add-date{
+    width: 70%;
+}
+.teskform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teskform> input{
+    margin: 5px;
+}
+.tesk-button-set{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.tesk-button-set >button {
+    width: 40%;
+}
+.pop-tesk-form{
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop-tesk-form:hover{
+    background-color:rgb(121, 134, 156);
+    color: cornsilk;
+}
+
+.current{
+    background-color: rgb(121, 134, 156)!important;
+
+}
